@@ -1,0 +1,5 @@
+<!-- jumbotron -->	
+<div class="jumbotron text-center">
+	<h1>Willkommen!</h1>
+	<p>Hier könnte Ihre Werbung stehen!</p> 
+</div>

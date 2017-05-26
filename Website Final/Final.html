@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"> 
+	<!-- Automatische Anpassung für Mobilgeräte-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Bootstrap Tutorial</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>  
+  <body>
+  
+	<!-- Navigationbar -->
+	<nav class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">Navbar</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">About</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Entry 1</a></li>
+							<li><a href="#">Entry 2</a></li>
+							<li><a href="#">Entry 3</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  
+	<!-- slider carousel -->
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		<li data-target="#myCarousel" data-slide-to="1"></li>
+		<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner">
+			<div class="item active">
+			  <img src="pics/bridge.jpeg" alt="bridge">
+			</div>
+
+			<div class="item">
+			  <img src="pics/skyline.jpg" alt="skyline">
+			</div>
+
+			<div class="item">
+			  <img src="pics/space.jpeg" alt="space">
+			</div>
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+	
+	<!-- jumbotron -->	
+  	<div class="jumbotron text-center">
+		<h1>Willkommen!</h1>
+		<p>Hier könnte Ihre Werbung stehen!</p> 
+	</div>
+  
+	<!-- Javascript und JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
