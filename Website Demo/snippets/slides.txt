@@ -10,15 +10,15 @@
 	<!-- Wrapper for slides -->
 	<div class="carousel-inner">
 		<div class="item active">
-		  <img src="pics/bridge.jpeg" alt="bridge">
+		  <img src="pics/swamp.jpg" alt="bridge">
 		</div>
 
 		<div class="item">
-		  <img src="pics/skyline.jpg" alt="skyline">
+		  <img src="pics/waterfall.jpg" alt="skyline">
 		</div>
 
 		<div class="item">
-		  <img src="pics/space.jpeg" alt="space">
+		  <img src="pics/moon.jpg" alt="space">
 		</div>
 	</div>
 
